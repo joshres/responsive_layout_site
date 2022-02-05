@@ -14,9 +14,10 @@
         <nav>
             <h1><a href="#">Jane Doe</a></h1>
             <ul class="top-nav">
-                <li><a href="#">home</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#top">home</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#skills">skills</a></li>
             </ul>
         </nav>
 
@@ -25,6 +26,10 @@
             <div class="profile-picture">
                 <img src="images/responsive-layout-profile.png" alt="profile image">
                 <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            </div>
+
+            <div id="portfolio" class="portfolio-title">
+                <h2>Portfolio</h2>
             </div>
 
             <div class="container">
@@ -60,11 +65,18 @@
                 </div>
             </div>
 
-            <div class="contact">
-                <h3>Contact</h3>
+            <div id="skills" class="skills-list">
+                <h2>Skills</h2>
+                    <p>I am proficient in HTML, CSS, and JavaScript. I am also learning Python in order to further my career and gain more knowledge about the inner workings of web development.</p>
+            </div>
+
+            <div id="contact" class="contact">
+                <h2>Contact</h2>
                 <p>If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-                    <a href="#">Phone +1(111)555-1234</a>
-                    <a href="#">Email email@yoursite.com</a>
+                    <ul>
+                        <li><a href="#+1(111)555-1234">Phone +1(111)555-1234</a></li>
+                        <li><a href="#email@yoursite.com">Email email@yoursite.com</a></li>
+                    </ul>
             </div>
         </main>
 
@@ -75,6 +87,7 @@
                 <li class="full"><a href="#top">home</a></li>
                 <li class="full"><a href="#portfolio">portfolio</a></li>
                 <li class="full"><a href="#contact">contact</a></li>
+                <li class="full"><a href="#skills">skills</a></li>
             </ul>
         </footer>
 

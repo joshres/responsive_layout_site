@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: black;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(247, 168, 168);
 }
 
 ul {
@@ -40,7 +40,7 @@ nav {
 }
 
 nav a:hover, .contact a:hover, .footer-nav a:hover {
-    color:aqua;
+    color:rgb(255, 80, 80);
 }
 
 h1, .top-nav {
@@ -78,22 +78,30 @@ Main
   margin: 0 auto;
   text-align: center;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .profile-picture p {
   padding: 20px;
+  line-height: 1.5;
 }
 
 .profile-picture h3 {
   padding-bottom: 20px;
 }
 
+.portfolio-title {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: rgb(17, 74, 160);
+}
+
 .container {
     max-width: 1100px;
     padding: 10px;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .container img {
@@ -105,7 +113,6 @@ Main
     min-height: 250px;
     color: black;
     text-align: center;
-    letter-spacing: 1px;
     padding-top: 5px;
 }
 
@@ -115,6 +122,33 @@ Main
 
 .col p {
   padding-bottom: 5px;
+  line-height: 1.5;
+}
+
+.contact {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 40px 20px;
+  background-color: #ececec;
+}
+
+.contact h2 {
+  padding-top: 25px;
+}
+.contact h2, p, li {
+  padding-bottom: 25px;
+}
+
+.skills-list {
+  padding: 30px 20px 20px 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.skills-list h2 {
+  color: rgb(17, 74, 160);
+  padding-bottom: 20px;
 }
 
 /**** 
