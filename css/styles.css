@@ -81,6 +81,10 @@ Main
   max-width: 100%;
 }
 
+.profile-picture img {
+  max-width: 100%;
+}
+
 .profile-picture p {
   padding: 20px;
   line-height: 1.5;
@@ -167,6 +171,10 @@ footer {
 
 .full {
   display: none;
+}
+
+.footer-nav li {
+  padding-bottom: 0;
 }
 
 /****
